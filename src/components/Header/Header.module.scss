@@ -1,0 +1,38 @@
+.header{
+	padding: 25px 0;
+}
+.container{
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.row{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+
+
+}
+
+.left{
+	font-size: 32px;
+	font-weight: 500;
+}
+
+.right{
+	display: flex;
+	gap: 30px;
+}
+
+.btn{
+	padding: 11px 20px;
+	border-radius: 8px;
+}
+
+.btnLogout{
+	background-color: #F2F2F7;
+	color: #000000;
+}
+

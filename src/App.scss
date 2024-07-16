@@ -1,0 +1,42 @@
+body,
+html {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	color: #000;
+}
+
+.custom-modal {
+	width: 600px;
+}
+
+.blue {
+	background-color: #0ba7f6;
+}
+
+.input {
+	padding: 5px 0px;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid #aeaeb2;
+	cursor: pointer;
+	margin-bottom: 16px;
+	&:focus {
+		outline: none;
+	}
+
+	&.error {
+		border-bottom: 1px solid #fa0202;
+	}
+}
